@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T16:20:58.490Z" agent="5.0 (Windows)" etag="1N4iUTjjsRJvNCkvSjRG" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T10:07:05.951Z" agent="5.0 (Windows)" etag="poMHh1RrLsGIpJEAP9QX" version="13.8.5" type="github">
   <diagram id="enVK-TMlwwV190GGYCbN" name="Page-1">
-    <mxGraphModel dx="2736" dy="2039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2736" dy="3019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ksKduSkaQOlg77DbCCtt-35" value="Godkänna Expedition" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-103" value="Rapportera krediterad expedition" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="-1110" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-35" value="Godkänna Expedition" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;arcSize=3;" vertex="1" parent="1">
           <mxGeometry x="790" y="-925" width="230" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-34" value="&lt;div&gt;Förbereda Order&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=top;strokeColor=#6c8ebf;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-34" value="&lt;div&gt;Förbereda Order&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=top;strokeColor=#6c8ebf;fillColor=none;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="-35" y="-925" width="810" height="330" as="geometry" />
         </mxCell>
         <mxCell id="BHcxovkAHU87ofvAvEho-1" value="Farmaceut" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -73,13 +76,10 @@
         <mxCell id="BHcxovkAHU87ofvAvEho-49" value="Registrera uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="829.5" y="-760" width="141" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-50" value="Lämna ut expedierade artiklar" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1899" y="-950" width="142" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-52" value="Uppdatera patientens HKDB" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+        <mxCell id="BHcxovkAHU87ofvAvEho-52" value="Uppdatera patientens HKDB" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1899" y="-870" width="142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-53" value="Rapportera försäljningstransaktion" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+        <mxCell id="BHcxovkAHU87ofvAvEho-53" value="Rapportera försäljningstransaktion" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1899" y="-820" width="142" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BHcxovkAHU87ofvAvEho-59" value="Makulera recept" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" parent="1" vertex="1">
@@ -103,24 +103,24 @@
         <mxCell id="BHcxovkAHU87ofvAvEho-64" value="Anrop SOAP-tjänst" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-180" y="-500" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-65" value="Backa expedition" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="-1050" width="200" height="170" as="geometry" />
+        <mxCell id="BHcxovkAHU87ofvAvEho-65" value="&lt;div&gt;Rapportera krediterad&lt;/div&gt;&lt;div&gt;expedition&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="-1050" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-66" value="Kreditera försäljningstransaktion" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="1649" y="-990" width="142" height="40" as="geometry" />
+        <mxCell id="BHcxovkAHU87ofvAvEho-66" value="Kreditera försäljningstransaktion" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1649" y="-1000" width="142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-67" value="Backa HKDB-transaktion" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="1649" y="-940" width="142" height="40" as="geometry" />
+        <mxCell id="BHcxovkAHU87ofvAvEho-67" value="Kreditera HKDB" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1649" y="-950" width="142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BHcxovkAHU87ofvAvEho-68" value="Backa uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="1649" y="-1020" width="142" height="20" as="geometry" />
+        <mxCell id="BHcxovkAHU87ofvAvEho-68" value="Kreditera uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1649" y="-900" width="142" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BHcxovkAHU87ofvAvEho-69" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontSize=12;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BHcxovkAHU87ofvAvEho-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1620" y="-890" as="sourcePoint" />
             <mxPoint x="1890" y="-860" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1850" y="-965" />
+              <mxPoint x="1850" y="-950" />
               <mxPoint x="1850" y="-860" />
             </Array>
           </mxGeometry>
@@ -149,7 +149,7 @@
           <mxGeometry x="-85" y="-780" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BHcxovkAHU87ofvAvEho-88" value="(NLL) FHIR GET /MedicationDispense" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-450" width="220" height="20" as="geometry" />
+          <mxGeometry x="10" y="-430" width="220" height="20" as="geometry" />
         </mxCell>
         <UserObject label="(FOLK) FHIR GET /Patient" tooltip="Folkbokförda personer (FOLK)" id="BHcxovkAHU87ofvAvEho-90">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
@@ -157,9 +157,9 @@
           </mxCell>
         </UserObject>
         <mxCell id="BHcxovkAHU87ofvAvEho-87" value="(NLL) FHIR GET /MedicationRequest" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;align=left;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-510" width="220" height="20" as="geometry" />
+          <mxGeometry x="10" y="-490" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-4" value="Hämta patients förskrivningar" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-4" value="Hämta patients förskrivningar" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="-720" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ksKduSkaQOlg77DbCCtt-11" target="BHcxovkAHU87ofvAvEho-76">
@@ -172,19 +172,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-11" value="&lt;div&gt;Hämta patientinformation &amp;amp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Hämta recept Apotek&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="15" y="-890" width="210" height="100" as="geometry" />
+        <mxCell id="ksKduSkaQOlg77DbCCtt-11" value="&lt;div&gt;Hämta information om patient&lt;/div&gt;&lt;div&gt;och läkemedelslista&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;horizontal=1;verticalAlign=top;fillColor=#02695D;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-900" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-12" value="&lt;a href=&quot;null&quot;&gt;Hämta patientinformation&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="47.5" y="-840" width="145" height="20" as="geometry" />
+        <mxCell id="ksKduSkaQOlg77DbCCtt-12" value="Hämta dossamtycke" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="-820" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-19" value="Söka substitution och pris" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="589" y="-780" width="142" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-20" value="Hämta historik" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-20" value="Hämta historik" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="-680" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-21" value="Hämta uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-21" value="Hämta uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="-650" width="145" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-24" value="(PRIS) KontrolleraForman" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;align=left;shadow=1;" vertex="1" parent="1">
@@ -215,7 +215,7 @@
           <mxGeometry x="1288.87" y="-530" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-33" value="(NLL) FHIR GET /MedicationRequest" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;align=left;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-480" width="220" height="20" as="geometry" />
+          <mxGeometry x="10" y="-460" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-53" value="Kontrollera substitution och kostnad" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1070" y="-860" width="200" height="200" as="geometry" />
@@ -238,14 +238,11 @@
         <mxCell id="ksKduSkaQOlg77DbCCtt-59" value="Kontrollera förmån" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1098" y="-810" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-60" value="Leverera och betala" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ksKduSkaQOlg77DbCCtt-60" value="Leverera och betala" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="1030" y="-925" width="520" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-61" value="Rapportera expedition" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1288.87" y="-860" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ksKduSkaQOlg77DbCCtt-68" value="Lämna ut expedierade artiklar" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1317.8700000000001" y="-822.5" width="142" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-69" value="Uppdatera patientens HKDB" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1317.8700000000001" y="-777.5" width="142" height="35" as="geometry" />
@@ -278,7 +275,7 @@
           <mxGeometry x="-100" y="-920" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-80" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;align=center;size=10;horizontal=0;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-35" y="-820" width="40" height="30" as="geometry" />
+          <mxGeometry x="-35" y="-830" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-81" value="Hämtad kundinformation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="160" y="-915" width="170" height="20" as="geometry" />
@@ -321,6 +318,35 @@
         </mxCell>
         <mxCell id="ksKduSkaQOlg77DbCCtt-94" value="Kontrollera uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="829.5" y="-810" width="141" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-96" value="&lt;a href=&quot;null&quot;&gt;Hämta patientinformation&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="-850" width="145" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="(NLL) FHIR GET /Consent" tooltip="Folkbokförda personer (FOLK)" id="ksKduSkaQOlg77DbCCtt-98">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;align=left;shadow=1;" vertex="1" parent="1">
+            <mxGeometry x="10" y="-530" width="220" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-99" value="&lt;div&gt;Hämta information om patient&lt;/div&gt;&lt;div&gt;och läkemedelslista&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;horizontal=1;verticalAlign=top;fillColor=#02695D;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="-983" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-100" value="&lt;div&gt;Hämta information om patient&lt;/div&gt;&lt;div&gt;och läkemedelslista&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;horizontal=1;verticalAlign=top;opacity=20;fillColor=#983579;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="-850" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-101" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;align=center;size=10;horizontal=0;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="-760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-102" value="Rapporterad expedition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-860" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-104" value="Backa uttag" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=none;horizontal=1;verticalAlign=top;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="-750" width="270" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-105" value="Backa uttag" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="-697.5" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ksKduSkaQOlg77DbCCtt-108" value="Backa uttag" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2164" y="-657.5" width="142" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
